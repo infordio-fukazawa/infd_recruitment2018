@@ -1,0 +1,11 @@
+.test {
+  color: #000; }
+  .test .test2 {
+    color: #666; }
+
+.test {
+  width: 3rem; }
+  .test.test2 {
+    width: 4rem; }
+
+/*# sourceMappingURL=test.css.map */
