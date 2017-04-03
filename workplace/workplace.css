@@ -81,4 +81,38 @@ figcaption {
     transform: scale(1.1);
     opacity: 1; }
 
+a.mdl-cell {
+  text-decoration: none; }
+
+.workplace-culture-section {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  margin-top: 60px; }
+
+.workplace-culture-section-left {
+  flex: 3 1 auto; }
+  .workplace-culture-section-left h2 {
+    color: #fff; }
+
+.workplace-culture-section-right {
+  flex: 1 1 auto; }
+
+.more-button {
+  position: absolute;
+  margin-top: 68px;
+  z-index: 999; }
+  .more-button.more-culture-button {
+    background-color: #fddc5c; }
+  .more-button.more-followup-button {
+    background-color: #98ffb8; }
+  .more-button.more-welfare-button {
+    background-color: #fe9799; }
+
+.detail-drawer-separator {
+  height: 3px;
+  background-color: #ff7b5f;
+  margin: 8px 0; }
+
 /*# sourceMappingURL=workplace.css.map */
