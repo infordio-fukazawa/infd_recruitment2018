@@ -71,6 +71,8 @@
         </nav>
       </div>
 
+      <a name="top"></a>
+
       <div class="android-content mdl-layout__content">
         <div class="android-more-section">
           <div class="android-section-title workplace-title">WORKPLACE</div>
@@ -78,8 +80,6 @@
             環境・制度
             <p>私たちのはたらく環境をご紹介します。</p>
           </div>
-
-          <!--<img src="../images/DSC00083.JPG">-->
 
           <div class="android-card-container mdl-grid">
             <a href="#culture" class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp animated fadeInUp card-culture">
@@ -130,32 +130,50 @@
           <div class="workplace-culture-section-left">
             <h2>CULTURE</h2>
           </div>
-          <div id="culture-button" class="workplace-culture-section-right">
-            <button class="more-button mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect more-culture-button">
-              <i class="material-icons">expand_more</i>
-            </button>
+          <div class="workplace-culture-section-right">
+            <label id="culture-button" class="more-button mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect more-culture-button" for="culture-checkbox">
+              <input id="culture-checkbox" type="checkbox" style="display: none;">
+              <i id="culture-yajirusi" class="material-icons">expand_more</i>
+            </label>
           </div>
         </div>
-
-        <div class="android-more-section">
-          <h3 class="theme-color-text">私たちの企業文化</h3>
-          <div class="detail-drawer-separator"></div>
+        <div id="culture-detail-section" class="detail-section-background" style="display: none;">
+          <div class="android-more-section animated fadeInUp">
+            <h3 class="theme-color-text">私たちの企業文化</h3>
+            <div class="detail-drawer-separator"></div>
+            <h4><i class="material-icons">done</i>ノウハウの共有</h4>
+            <p>弊社では定期的に社内勉強会を開催し、業務知識や最新技術の共有を図っています。</p>
+            <h4><i class="material-icons">done</i>年間アワード</h4>
+            <p>年間を通じて会社に貢献した社員を表彰します。</p>
+            <h4><i class="material-icons">done</i>Not SES</h4>
+            <p>「SES」、いわゆる客先常駐は弊社では行っていません。</p>
+            <p>社長含め、社員全員が同じフロアで働いています。</p>
+          </div>
         </div>
 
         <div id="follow_up" class="workplace-culture-section mdl-typography--text-center theme-color">
           <div class="workplace-culture-section-right">
-            <button class="more-button mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect more-followup-button">
-              <i class="material-icons">expand_more</i>
-            </button>
+            <label id="followup-button" class="more-button mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect more-followup-button" for="followup-checkbox">
+              <input id="followup-checkbox" type="checkbox" style="display: none;">
+              <i id="followup-yajirusi" class="material-icons">expand_more</i>
+            </label>
           </div>
           <div class="workplace-culture-section-left">
             <h2>FOLLOW UP</h2>
           </div>
         </div>
-
-        <div class="android-more-section">
-          <h3 class="theme-color-text">積極的にチャレンジする皆さんを応援します。</h3>
-          <div class="detail-drawer-separator"></div>
+        <div id="followup-detail-section" class="detail-section-background" style="display: none;">
+          <div class="android-more-section animated fadeInUp">
+            <h3 class="theme-color-text">積極的にチャレンジする皆さんを応援します。</h3>
+            <div class="detail-drawer-separator"></div>
+            <h4><i class="material-icons">done</i>外部研修</h4>
+            <p>入社後は2~3カ月程の外部研修を受けていただき、基礎的なプログラミング技術を養います。</p>
+            <h4><i class="material-icons">done</i>OJT</h4>
+            <p>外部研修後は、先輩社員のOJTの中で業務知識やプログラミング技術を身につける手助けをします。</p>
+            <h4><i class="material-icons">done</i>資格報奨金制度</h4>
+            <p>業務に役立つ資格には報奨金制度が定められています。</p>
+            <p>見事合格すると受験料も会社が負担します。</p>
+          </div>
         </div>
 
         <div id="welfare" class="workplace-culture-section mdl-typography--text-center theme-color">
@@ -163,15 +181,23 @@
             <h2>WELFARE</h2>
           </div>
           <div class="workplace-culture-section-right">
-            <button class="more-button mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect more-welfare-button">
-              <i class="material-icons">expand_more</i>
-            </button>
+            <label id="welfare-button" class="more-button mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect more-welfare-button" for="welfare-checkbox">
+              <input id="welfare-checkbox" type="checkbox" style="display: none;">
+              <i id="welfare-yajirusi" class="material-icons">expand_more</i>
+            </label>
           </div>
         </div>
-
-        <div class="android-more-section">
-          <h3 class="theme-color-text">ワークライフバランス、大事ですよね。</h3>
-          <div class="detail-drawer-separator"></div>
+        <div id="welfare-detail-section" class="detail-section-background"  style="display: none;">
+          <div class="android-more-section animated fadeInUp">
+            <h3 class="theme-color-text">ワークライフバランス、大事ですよね。</h3>
+            <div class="detail-drawer-separator"></div>
+            <h4><i class="material-icons">done</i>休暇取得</h4>
+            <p>弊社では土日祝日はもちろんのこと、誕生日、夏休み、年末年始の休暇を取得することができます。</p>
+            <p>社員はみな、思い思いの私生活を満喫しています。</p>
+            <h4><i class="material-icons">done</i>部活動推進</h4>
+            <p>社員5名以上で部活動申請が可能です。</p>
+            <p>運動部はまだないので、一緒に運動部も作りましょう！</p>
+          </div>
         </div>
 
 
