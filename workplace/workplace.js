@@ -8,7 +8,7 @@ $(function() {
             $("#welfare-yajirusi").text("expand_more");
         }
     });
-})
+});
 
 $(function() {
     $("#culture-button").on('click', function() {
@@ -20,7 +20,7 @@ $(function() {
             $("#culture-yajirusi").text("expand_more");
         }
     });
-})
+});
 
 $(function() {
     $("#followup-button").on('click', function() {
@@ -32,4 +32,4 @@ $(function() {
             $("#followup-yajirusi").text("expand_more");
         }
     });
-})
+});
