@@ -1,5 +1,8 @@
 body {
-    background-color: #eee;
+    background-image: url("../images/background-image.png");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
 }
 
 .material-icons.md-90 {
