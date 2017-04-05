@@ -16,11 +16,6 @@
 
 body {
   margin: 0;
-  background-image: url("../images/background-image.png"); /* 全体の背景画像 */
-  background-repeat: no-repeat;             /*背景を繰り返さない*/
-  /*background-position: 100% 100%;             背景画像の位置は画面中央 */
-  background-attachment:fixed;             /* 背景画像を固定する */
-  background-size: cover;
 }
 
 /* Disable ugly boxes around images in IE10 */
@@ -67,8 +62,8 @@ a img{
 
 
 .android-logo-image {
-  height: 28px;
-  width: 140px;
+  height: 40px;
+  width: 220px;
 }
 
 
