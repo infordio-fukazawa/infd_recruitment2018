@@ -1,0 +1,149 @@
+* {
+    /*font-family: 'Hiragino Kaku Gothic StdN';*/
+    font-size: 15px;
+}
+body {
+    background-color: white;
+    margin: 0;
+    height: 100%;
+    width: 100%
+}
+#header {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 10%;
+    max-height: 100px;
+    min-height: 50px;
+    background-color: lightseagreen;
+}
+#main {
+    width: 90%;
+    min-height: 300px;
+    margin: auto;
+}
+/* サブタイトル */
+.sub_title {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #ef7;
+    padding: 20px 0;
+    color: #fff;
+    text-shadow: 1px 1px 4px lightseagreen/*#56adbf*/;
+    font-size: 2.0em;
+}
+.sub_title::before {
+    content: "";
+}
+
+/* 画像用 */
+.img {
+    width: 100%;
+    overflow: hidden;
+}
+.img::after {
+    padding-top: 75%;
+}
+div.full {
+    width: calc( 100% - ((100% - 80%) / 3) * 2);
+    margin: calc((100% - 80%) / 3);
+}
+div.big {
+    width: calc(55%);
+}
+div.small {
+    width: calc(25%);
+}
+div.frame.left {
+    float: left;
+}
+div.frame.right {
+    float: right;
+    margin-right: calc((100% - 80%) / 3);
+}
+
+div.frame.small.right.top {
+    clear: both;
+}
+div.frame.small.right.bottom {
+    float: right;
+    transform: translateY(-121%);
+}
+
+div.frame {
+	display: inline-block;
+	position: relative;
+    margin: calc((100% - 80%) / 3) 0% 0% calc((100% - 80%) / 3);
+    z-index: 1;
+}
+div.frame::after {
+	position: absolute;
+	display: block;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	transform: rotate(3deg); /* 回転させる */
+	background: #fff;
+    z-index: -1;
+}
+
+div img {
+    width: 100%;
+}
+div.frame div.caption {
+    position: absolute;
+    /*animation-duration: 0.5s;
+    animation-name: slideout;*/
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+    opacity: 0;
+    word-break: break-all;
+    -webkit-transform: translateY(0);
+    -webkit-transition: -webkit-transform 1s;
+    transform: translateY(0);
+    transition: transform 1s;
+}
+div.frame:hover div.caption {
+    display: block;
+    /*animation-duration: 1s;
+    animation-name: slidein;*/
+    position: absolute;
+    left: 0%;
+    top: calc(100% - 8em);
+    height: 8em;
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.6;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+@keyframes slidein {
+    from {
+        height: 0%;
+        top: 100%;
+        opacity: 0;
+    }
+    to {
+        height: 8em;
+        top: calc(100% - 8em);
+        opacity: 0.6;
+    }
+}
+@keyframes slideout {
+    from {
+        height: 8em;
+        top: calc(100% - 8em);
+        opacity: 0.6;
+    }
+    to {
+        height: 0%;
+        top: 100%;
+        opacity: 0;
+    }
+}

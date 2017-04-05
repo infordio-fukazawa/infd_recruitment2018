@@ -1,45 +1,12 @@
 body {
-    background-color: #eee;
+    background-image: url("../images/background-image.png");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
 }
 
 .material-icons.md-90 {
     font-size: 90px;
-}
-
-.figure-inner {
-	position: relative;
-	width: 300px;
-	-webkit-perspective: 1000;
-	perspective: 1000;
-	width: 300px;
-	height: 200px;
-	-webkit-transition: .5s;
-	transition: .5s;
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-}
-.image,
-figcaption {
-	position: absolute;
-	width: 300px;
-	height: 200px;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-.image {
-	z-index: 2;
-}
-figcaption {
-	background: #fff;
-	border: 2px solid #666;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-figure:hover .figure-inner,
-figcaption {
-	-webkit-transform: rotateY(180deg);
-	transform: rotateY(180deg);
 }
 
 .workplace-title {
@@ -84,7 +51,7 @@ figcaption {
 }
 
 .theme-color {
-    background-color: #ff7b5f;
+    background-color: #ff7b5f!important;
 }
 
 .card-culture:hover, .card-training:hover, .card-welfare:hover {
@@ -109,7 +76,7 @@ a.mdl-cell {
 
 }
 .workplace-culture-section-left {
-    flex: 3 1 auto;
+    flex: 2 1 auto;
     h2 {
         color: #fff;
     }
@@ -137,4 +104,9 @@ a.mdl-cell {
     height: 3px;
     background-color: #ff7b5f;
     margin: 8px 0;
+}
+
+.detail-section-background {
+    background-color: #f7f7f7;
+    margin-bottom: -60px;
 }
