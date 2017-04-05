@@ -66,6 +66,12 @@ a img{
   width: 220px;
 }
 
+.android-logo-image-side {
+  height: 40px;
+  width: 140px;
+  margin-top: 100px
+}
+
 
 .android-header {
   overflow: visible;
@@ -543,4 +549,112 @@ a img{
   .android-footer .mdl-mega-footer--bottom-section {
     display: none;
   }
+}
+
+.gear-small {
+  width: 150px;
+  position: absolute;
+}
+.gear-middle {
+  width: 200px;
+  position: absolute;
+}
+.gear-large {
+  width: 250px;
+  position: absolute;
+}
+.gear1-green {
+  left: 60%;
+  bottom: -5%;
+}
+.gear1-gray {
+  bottom: 7%;
+  left: 50%;
+}
+.gear1-orange {
+  bottom: 0%;
+}
+.gear1-yellow {
+
+}
+.gear2-green {
+  top: 3%;
+  left: 48%;
+}
+.gear2-gray {
+  bottom: -7%;
+  right: -3%;
+}
+.gear2-orange {
+  right: 0%;
+}
+.gear2-yellow {
+  top: 3%;
+  left: 70%;
+}
+.gear3-green {
+  bottom: -7%;
+  left: 33%;
+}
+.gear3-orange {
+  top: 9%;
+  left: 22%;
+}
+/*.gear3-gray {
+  bottom: 5%;
+  left: 50%;
+}*/
+.gear3-yellow {
+  left: 33%;
+  top: -5%;
+}
+.gear4-green {
+  top: -5%;
+  left: 2%;
+}
+.gear4-orange {
+  bottom: 2%;
+  left: 67%;
+}
+.gear4-yellow {
+  bottom: -2%;
+  left: 18%;
+}
+.gear4-gray {
+  top: -5%;
+  left: 61%;
+}
+
+
+@-webkit-keyframes kaiten {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes kaiten {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.kaiten {
+  -webkit-animation-name: kaiten;
+  animation-name: kaiten;
+  animation-duration: 30s;
+  -webkit-animation-duration: 30s;
+  animation-iteration-count: 50;
+  -webkit-animation-iteration-count: 50;
+}
+
+.index-section {
+  overflow-y: hidden;
 }
