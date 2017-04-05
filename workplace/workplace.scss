@@ -29,18 +29,6 @@ figcaption {
 .image {
 	z-index: 2;
 }
-figcaption {
-	background: #fff;
-	border: 2px solid #666;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-figure:hover .figure-inner,
-figcaption {
-	-webkit-transform: rotateY(180deg);
-	transform: rotateY(180deg);
-}
 
 .workplace-title {
     text-align: center;
@@ -96,21 +84,50 @@ figcaption {
     }
 }
 
+a.mdl-cell {
+    text-decoration: none;
+}
 
+.workplace-culture-section {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    margin-top: 60px;
 
-// .card-culture:hover{
-//     z-index: 999;
-//     border: 5px solid #333;
-//     transform: scale(1.1);
-// }
-// .card-culture:hover .culture-icon{
-//     color: #000;
-//     font-size: 100px;
-//     text-shadow: 0px 0px 1px #000;
-//     animation: moveFromBottom 300ms ease;
-// }
-// .card-culture:hover .culture-title{
-//     color: #000;
-//     font-size: 3rem;
-//     animation: moveFromBottom 500ms ease;
-// }
+}
+.workplace-culture-section-left {
+    flex: 3 1 auto;
+    h2 {
+        color: #fff;
+    }
+}
+.workplace-culture-section-right {
+    flex: 1 1 auto;
+}
+
+.more-button {
+    position: absolute;
+    margin-top: 68px;
+    z-index: 999;
+    &.more-culture-button {
+        background-color: rgb(253, 220, 92);
+    }
+    &.more-followup-button {
+        background-color: rgb(152, 255, 184);
+    }
+    &.more-welfare-button {
+        background-color: rgb(254, 151, 153);
+    }
+}
+
+.detail-drawer-separator {
+    height: 3px;
+    background-color: #ff7b5f;
+    margin: 8px 0;
+}
+
+.detail-section-background {
+    background-color: #eee;
+    margin-bottom: -60px;
+}
