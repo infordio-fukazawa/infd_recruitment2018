@@ -29,10 +29,13 @@ body {
 
 /* Disable ugly boxes around images in IE10 */
 
+
+
+
+
 a img{
   border: 0px;
 }
-
 
 .img_main {
       width: 100%;
