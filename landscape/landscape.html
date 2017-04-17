@@ -15,7 +15,7 @@
   See the License for the specific language governing permissions and
   limitations under the License
 -->
-<html lang="jp">
+<html lang="ja">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,11 +30,7 @@
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/animate.min.css">
     <link rel="stylesheet" href="../css/ihover.min.css">
-    <link rel="stylesheet" href="../workplace/workplace.css">
-    <link rel="stylesheet" href="landscape.css">
-    <!--
-    <link rel="stylesheet" href="landscape.css">
-    -->
+    <link rel="stylesheet" href="./landscape.css">
   </head>
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -42,19 +38,19 @@
       <!-- ↓共通パーツ(メニューバー)↓ -->
       <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row">
-          <span class="android-title mdl-layout-title">
-            <img class="android-logo-image" src="../images/android-logo.png">
-          </span>
+          <a href="../index.html" class="android-title mdl-layout-title">
+            <img class="android-logo-image" src="../images/companylogo.png">
+          </a>
           <!-- Add spacer, to align navigation to the right in desktop -->
           <div class="android-header-spacer mdl-layout-spacer"></div>
           <!-- Navigation -->
           <div class="android-navigation-container">
             <nav class="android-navigation mdl-navigation">
               <a class="mdl-navigation__link mdl-typography--text-uppercase" href="../index.html">TOP</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="../introduceStaff/staff.html">社員紹介</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">社内風景</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="../workplace/workplace.html">制度・環境</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">募集要項</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="../introduceStaff/staffs.html">社員紹介</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="../landscape/landscape.html">社内風景</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="../workplace/workplace.html">環境・制度</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#">募集要項</a>
             </nav>
           </div>
         </div>
@@ -63,15 +59,15 @@
 
       <!-- ↓共通パーツ(サイドバー)↓ -->
       <div class="android-drawer mdl-layout__drawer">
-        <span class="mdl-layout-title">
-          <img class="android-logo-image" src="../images/android-logo-white.png">
+        <span class="mdl-layout-title theme-color">
+          <img class="android-logo-image-side" src="../images/companylogo-white.png">
         </span>
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link mdl-typography--text-uppercase" href="../index.html">TOP</a>
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="../introduceStaff/staff.html">社員紹介</a>
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">社内風景</a>
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="../workplace/workplace.html">制度・環境</a>
-          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">募集要項</a>
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="../introduceStaff/staffs.html">社員紹介</a>
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="../landscape/landscape.html">社内風景</a>
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="../workplace/workplace.html">環境・制度</a>
+          <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#">募集要項</a>
         </nav>
       </div>
 
@@ -86,20 +82,62 @@
           </div>
           <div class="android-card-container mdl-grid">
 
-            <div class="mdl-cell mdl-cell--12-col mdl-cell--6-col-phone mdl-cell--4-col-tablet mdl-card mdl-shadow--3dp">
+            <div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
               <div class="mdl-card__media square effect1 left_and_right">
               <a href="#">
                 <div class="img"><img src="img/cats/01_1.jpg" alt="cat"></div>
-                <div class="info">
+                <!--div class="info">
                   <h3>Heading here</h3>
                   <p>Description goes here</p>
-                </div>
+                </div-->
               </a>
               </div>
             </div>
 
-          <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-phone mdl-cell--4-col-tablet mdl-card mdl-shadow--3dp">
+            <div class="mdl-cell mdl-cell--8-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media square effect1 left_and_right">
+                <div class="img"><img src="img/cats/01_1.jpg" alt="cat"></div>
+                <!--iv class="info">
+                  <h3>Heading here</h3-->
+                  <div class="mdl-card__supporting-text">
+                    <span class="mdl-typography--font-light mdl-typography--subhead">
+                      Turn the little green Android mascot into you, your friends, anyone!
+                    </span>
+                  </div>
+                  <div class="mdl-card__actions">
+                     <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                       androidify.com
+                    </a>
+                  </div>
+                <!--/div-->
+              </div>
+            </div>
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-phone /*mdl-shadow--3dp*/ mdl-grid mdl-grid--no-spacing">
+              <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                <div class="mdl-card__media square effect1 left_and_right">
+                  <a href="#">
+                    <div class="img"><img src="img/cats/01_1.jpg" alt="cat"></div>
+                    <!--div class="info">
+                      <h3>Heading here</h3>
+                      <p>Description goes here</p>
+                    </div-->
+                  </a>
+                </div>
+              </div>
+              <div class="mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                <div class="mdl-card__media square effect1 left_and_right">
+                  <a href="#">
+                    <div class="img"><img src="img/cats/01_1.jpg" alt="cat"></div>
+                    <!--div class="info">
+                      <h3>Heading here</h3>
+                      <p>Description goes here</p>
+                    </div-->
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
               <div class="mdl-card__media square effect1 left_and_right">
               <a href="#">
                 <div class="img"><img src="img/cats/01_1.jpg" alt="cat"></div>
@@ -110,7 +148,7 @@
               </a>
               </div>
             </div>
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-phone mdl-cell--4-col-tablet mdl-card mdl-shadow--3dp">
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
               <div class="mdl-card__media square effect1 left_and_right">
               <a href="#">
                 <div class="img"><img src="img/cats/01_1.jpg" alt="cat"></div>
@@ -121,7 +159,7 @@
               </a>
               </div>
             </div>
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-phone mdl-cell--4-col-tablet mdl-card mdl-shadow--3dp">
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
               <div class="mdl-card__media square effect1 left_and_right">
               <a href="#">
                 <div class="img"><img src="img/cats/01_1.jpg" alt="cat"></div>
@@ -132,7 +170,7 @@
               </a>
               </div>
             </div>
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-phone mdl-cell--4-col-tablet mdl-card mdl-shadow--3dp">
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
               <div class="mdl-card__media square effect1 left_and_right">
               <a href="#">
                 <div class="img"><img src="img/cats/01_1.jpg" alt="cat"></div>
