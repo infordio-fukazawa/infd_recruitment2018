@@ -35,15 +35,18 @@ body {
   opacity: .6; }
 
 .theme-color-text {
-  color: #ff7b5f; }
+  color: #32cd32; }
 
 .theme-color {
-  background-color: #ff7b5f !important; }
+  background-color: #32cd32 !important; }
 
 .android-card-container * {
     color: #000;
-    border-bottom: none;
-}
+    border-bottom: none; }
+
+.android-more-section .android-section-title {
+    font-weight: 700;
+    text-shadow: 1px 1px 3px #ddd; }
 
 @media (max-width: 479px) {
   .mdl-cell.mdl-grid.mdl-grid--no-spacing .mdl-cell:first-child {
