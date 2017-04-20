@@ -15,8 +15,41 @@
  */
 
 body {
-  margin: 0;
-}
+  background-image: url("../images/background-image.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 0; }
+
+.workplace-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 5rem;
+  animation: moveFromBottom 1s ease;
+  opacity: .7; }
+
+.workplace-subtitle {
+  text-align: center;
+  font-size: 24px;
+  animation: moveFromBottom 1s ease;
+  opacity: .7;
+  margin-top: 20px; }
+  .workplace-subtitle p {
+    color: #333;
+    font-size: 14px;
+    margin-top: 20px; }
+
+@keyframes moveFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(200%); }
+  to {
+    opacity: .7;
+    transform: translateY(0%); } }
+.workplace-card-title {
+  font-size: 40px;
+  opacity: .6; }
+
 
 /* Disable ugly boxes around images in IE10 */
 a img{
