@@ -21,20 +21,20 @@ body {
   background-size: cover;
   background-position: 50% 0; }
 
-.workplace-title {
+.common-title {
   text-align: center;
   font-weight: 700;
   font-size: 5rem;
   animation: moveFromBottom 1s ease;
   opacity: .7; }
 
-.workplace-subtitle {
+.common-subtitle {
   text-align: center;
   font-size: 24px;
   animation: moveFromBottom 1s ease;
   opacity: .7;
   margin-top: 20px; }
-  .workplace-subtitle p {
+  .common-subtitle p {
     color: #333;
     font-size: 14px;
     margin-top: 20px; }
