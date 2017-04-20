@@ -9,8 +9,7 @@
     border-bottom: none; }
 
 .android-more-section .android-section-title {
-    font-weight: 700;
-    /*text-shadow: 1px 1px 3px #ddd;*/ }
+    font-weight: 700; }
 
 /* ↓ColorBox上書き↓ */
 #cboxOverlay {

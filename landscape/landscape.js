@@ -1,5 +1,5 @@
 $(function() {
-    $('a.slide').colorbox({
+    $('.slide').colorbox({
         rel: 'photo',
         transition: 'elastic',
         closeButton: false,
