@@ -1,0 +1,119 @@
+body {
+  background-image: url("../images/background-image.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+dl {
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+dt {
+  display: block;
+}
+
+dd {
+  display: block;
+/*  -webkit-margin-start: 40px;*/
+}
+
+div {
+  display: block;
+}
+
+.contents {
+  overflow: hidden;
+  position: relative;
+}
+
+.contents .section2 {
+  padding-bottom: 70px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #dddec8;
+  /*background: #f9f9f9;*/
+}
+
+.contents .inner {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.contents .section2 h2 {
+  padding: 50px 0;
+  font-size: 200%;
+  text-align: center;
+}
+
+.contents .section2 dl {
+  width: 700px;
+}
+
+.contents .section2 dt {
+  float: left;
+  font-weight: bold;
+  font-size: 87.5%;
+  line-height: 1.71;
+  padding: 25px 10px;
+  width: 180px;
+}
+
+.contents .section2 dd {
+  float: right;
+  font-size: 87.5%;
+  line-height: 1.71;
+  padding: 25px 10px;
+  width: 480px;
+}
+
+.clearfix:after, div:after, dl:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+dl:after {
+  position: relative;
+  height: 2px;
+  display: block;
+  width: 100%;
+  background-color: #acece6;
+  border-radius: 2px;
+  margin: .5rem 0 1rem 0;
+  overflow: hidden;
+}
+
+.clearfix, div, dl {
+  zoom: 1;
+}
+
+.button_bosyu {
+  margin: 0 auto;
+  text-align : center;
+  color: #fff;
+  text-decoration: none;
+  background-color: #acece6;
+  display: block;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  /* ここで動く速度とか設定 */
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  }
+
+.button_bosyu:hover {
+  transform: rotate(720deg);
+  -webkit-transform: rotate(720deg);
+}
+
+/*# sourceMappingURL=requirements.css.map */
