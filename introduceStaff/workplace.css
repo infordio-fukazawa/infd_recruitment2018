@@ -38,13 +38,13 @@ body {
   opacity: .6; }
 
 .theme-color-text {
-  color: #ff7b5f; }
+  color: #ffffa4; }
 
 .theme-color {
-  background-color: #ff7b5f !important; }
+  background-color: #cdff6b !important; }
 
 .card-culture:hover, .card-training:hover, .card-welfare:hover {
-  background-color: #ff7b5f; }
+  background-color: #ffffa4; }
   .card-culture:hover .culture-content, .card-culture:hover .welfare-content, .card-culture:hover .training-content, .card-training:hover .culture-content, .card-training:hover .welfare-content, .card-training:hover .training-content, .card-welfare:hover .culture-content, .card-welfare:hover .welfare-content, .card-welfare:hover .training-content {
     color: #fff;
     transform: scale(1.1);
