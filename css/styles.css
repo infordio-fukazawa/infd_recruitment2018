@@ -15,8 +15,11 @@
  */
 
 body {
-  background: radial-gradient(#fff, #fafafa) !important;
- }
+  background-image: url("../images/background-image.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 0; }
 
 .common-title {
   text-align: center;
