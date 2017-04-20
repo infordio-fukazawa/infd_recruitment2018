@@ -647,9 +647,28 @@ a img{
   }
 }
 
+@keyframes gyakukaiten {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
 .kaiten {
   -webkit-animation-name: kaiten;
   animation-name: kaiten;
+  animation-duration: 30s;
+  -webkit-animation-duration: 30s;
+  animation-iteration-count: 50;
+  -webkit-animation-iteration-count: 50;
+}
+
+.gyakukaiten {
+  -webkit-animation-name: gyakukaiten;
+  animation-name: gyakukaiten;
   animation-duration: 30s;
   -webkit-animation-duration: 30s;
   animation-iteration-count: 50;
