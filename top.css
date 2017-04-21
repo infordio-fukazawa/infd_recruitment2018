@@ -1,3 +1,4 @@
 body {
-    background: radial-gradient(#fff, #fafafa) !important;
+    background-image: image("");
+    background: radial-gradient(#fff, #fff3e8) !important;
 }
