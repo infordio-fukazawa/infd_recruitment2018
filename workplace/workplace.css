@@ -72,11 +72,14 @@ a.mdl-cell {
   margin-top: 68px;
   z-index: 999; }
   .more-button.more-culture-button {
-    background-color: #fddc5c; }
+    background-color: #fddc5c;
+    right: 10%; }
   .more-button.more-followup-button {
-    background-color: #98ffb8; }
+    background-color: #98ffb8;
+    left: 10%; }
   .more-button.more-welfare-button {
-    background-color: #fe9799; }
+    background-color: #fe9799;
+    right:10%; }
 
 .detail-drawer-separator {
   height: 3px;
@@ -86,5 +89,18 @@ a.mdl-cell {
 .detail-section-background {
   background-color: #f7f7f7;
   margin-bottom: -60px; }
+
+.discription-section {
+  margin: 0px 15px;
+}
+
+@media screen and (max-width: 500px) {
+  .workplace-title {
+    font-size: 4rem;
+  }
+}
+.workplace-footer {
+  margin-top: 40px;
+}
 
 /*# sourceMappingURL=workplace.css.map */
