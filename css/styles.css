@@ -598,36 +598,36 @@ a img{
   position: absolute;
 }
 .haguruma01 {
-  left: 0;
-  top: 0;
+  left: -50px;
+  top: -50px;
 }
 .haguruma02 {
-  top: 0;
-  left: 300px;
+  top: -60px;
+  left: 310px;
 }
 .haguruma03 {
-  top: 200px;
-  left: 300px;
+  top: 135px;
+  left: 370px;
 }
 .haguruma04 {
-  top: 350px;
-  left: 0;
+  top: 325px;
+  left: -50px;
 }
 .haguruma05 {
-  bottom: 200px;
+  bottom: 140px;
   right: 150px;
 }
 .haguruma06 {
-  bottom: 200px;
-  right: 0px;
+  bottom: 140px;
+  right: -30px;
 }
 .haguruma07 {
-  bottom: 0;
-  right: 150px;
+  bottom: -50px;
+  right: 140px;
 }
 .haguruma08 {
-  bottom: 0;
-  right: 0;
+  bottom: -50px;
+  right: -50px;
 }
 
 @-webkit-keyframes kaiten {
@@ -682,13 +682,47 @@ a img{
   overflow-y: hidden;
 }
 
-.top-title {
+.top-title{
+  height: 100%;
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left:0;
+  bottom: 0;
+}
+
+.infordio {
   width: 100%;
-  top: 40%;
+  height: 10%;
   text-align: center;
   opacity: .7;
+  margin: auto;
+  margin-bottom: 0px;
+  top: 0;
+  right: 0;
+  left:0;
+  bottom: 0;
+  font-size: 56px;
 }
+
+.for-next-freshers {
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  opacity: .7;
+  margin: auto;
+  margin-top: 0px;
+  top: 0;
+  right: 0;
+  left:0;
+  bottom: 0;
+  font-size: 56px;
+}
+
 
 @-webkit-keyframes top-smooth-in {
   0% {
