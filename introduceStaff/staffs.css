@@ -1,5 +1,26 @@
-.staffs-card{
-  height: 450px;
+.card {
+  /*background-color: rgba(255,255,255,0.5);*/
+  padding: 0px 0px 30px 0px;
+  box-shadow: 1px 5px 20px  rgba(0,0,0,0.4);
+  margin: 20px;
+  width: 200px;
+  height: 350px;
+}
+
+.card:hover {
+  box-shadow: 1px 5px 20px  rgba(0,0,0,0.4) inset;
+}
+
+.card-img {
+  width: 200px;
+  height: 250px;
+}
+
+.card-img:hover {
+}
+
+.card-content {
+  margin-left: 10px;
 }
 
 .gradient-top {
@@ -9,7 +30,7 @@
 .hirono{
   background-image: url(../images/hirono.jpg);
   background-repeat: no-repeat;
-  background: linear-gradient(to bottom, #fff, #ffff6b);
+  background:url(../images/hirono.jpg) linear-gradient(to bottom, #fff, #ffff6b);
   background-size: 100% auto;
 }
 
@@ -19,8 +40,7 @@
 }
 
 .img{
-  height: 450px;
-  width: 100%;
+
 }
 
 .sankaku{
@@ -40,5 +60,6 @@
 }
 
 .staffs-section{
-  /*padding: 0px;*/
+  display: flex;
+  justify-content: space-around;
 }
