@@ -1,3 +1,7 @@
+.android-more-section {
+  padding-bottom: 10px;
+}
+
 .card {
   /*background-color: rgba(255,255,255,0.5);*/
   padding: 0px 0px 30px 0px;
@@ -5,18 +9,24 @@
   margin: 20px;
   width: 200px;
   height: 350px;
+  position: relative;
+}
+
+.card a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width: 100%;
 }
 
 .card:hover {
-  box-shadow: 1px 5px 20px  rgba(0,0,0,0.4) inset;
+  box-shadow:  1px 5px 20px  rgba(0,0,0,0.4) inset;
 }
 
 .card-img {
   width: 200px;
   height: 250px;
-}
-
-.card-img:hover {
 }
 
 .card-content {
@@ -59,7 +69,118 @@
   border-top: 80px solid rgb(255, 255, 255);
 }
 
+.android-card-container{
+  display: flex;
+  flex-direction: column;
+}
+
 .staffs-section{
   display: flex;
   justify-content: space-around;
+}
+
+a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+    color: black;
+}
+
+#masa {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+}
+
+#fuka {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+}
+#ito {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+}
+#hirono {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+}
+
+.close_overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-indent: -9999px;
+    position: absolute;
+    background: #000;
+    opacity: 0.5;
+    z-index: 10;
+}
+
+.modal_window {
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -200px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    display: block;
+    background: #fff;
+    position: absolute;
+    z-index: 10;
+}
+
+.modal_window h2 {
+    margin-bottom: 20px;
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 15px;
+    background: #000;
+}
+
+.modal_window p {
+    padding: 0 15px 15px 15px;
+    font-size: 12px;
+    line-height: 160%;
+    text-align: left;
+}
+
+
+/* CSS3 ModalWindow SET
+-------------------------- */
+@-webkit-keyframes modalFadeIn {
+    0% {opacity:0;display:block;}
+    100% {opacity:1;}
+}
+
+div#modal div:target {
+    -webkit-animation-name: modalFadeIn;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+    opacity: 1;
+    display:block;
+}
+
+
+@@keyframes img_slide {
+  0% {opacity: 0;}
+10% {opacity: 1;}
+30% {opacity: 1;}
+40% {opacity: 0;}
+100% {opacity: 0;}
 }
