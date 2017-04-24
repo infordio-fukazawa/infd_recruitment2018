@@ -10,6 +10,7 @@ $(function() {
         closeButton: true,
         slideshow: false,
         slideshowAuto: false,
+        maxWidth: '90%',
         maxHeight: '90%',
         height: '90%',
         opacity: 0.7
