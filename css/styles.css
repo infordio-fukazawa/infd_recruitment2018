@@ -813,7 +813,12 @@ a img{
     opacity: 1;
   }
 }
-
+.workplace-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 5rem;
+  animation: moveFromBottom 1s ease;
+  opacity: .7; }
 .top-smooth-in {
   -webkit-animation-name: top-smooth-in;
   animation-name: top-smooth-in;
