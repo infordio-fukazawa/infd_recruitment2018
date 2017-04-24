@@ -818,3 +818,13 @@ a img{
   -webkit-animation-name: top-smooth-in;
   animation-name: top-smooth-in;
 }
+@media screen and (max-width: 500px) {
+  div.workplace-title {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 414px) {
+  div.workplace-title {
+    font-size: 3rem;
+  }
+}

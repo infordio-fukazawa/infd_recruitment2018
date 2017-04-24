@@ -94,11 +94,6 @@ a.mdl-cell {
   margin: 0px 15px;
 }
 
-@media screen and (max-width: 500px) {
-  .workplace-title {
-    font-size: 4rem;
-  }
-}
 .workplace-footer {
   margin-top: 40px;
 }
