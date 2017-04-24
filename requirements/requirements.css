@@ -9,6 +9,18 @@ body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, input, textarea, p, blockquote, t
   padding: 0;
 }
 
+.selection-flow {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+@media (max-width: 640px) {
+.selection-flow {
+    font-size: 20px;
+  }
+}
+
+/*ここからヘッダー*/
 .requirements-title {
   text-align: center;
   font-weight: 700;
@@ -29,6 +41,32 @@ body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, input, textarea, p, blockquote, t
   color: #333;
   font-size: 14px;
   margin-top: 20px;
+}
+
+@media (max-width: 780px) {
+  .requirements-title {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .requirements-title {
+    font-size: 3rem;
+  }
+
+  .requirements-subtitle {
+    font-size: 20px;
+  }
+
+  .requirements-subtitle p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 470px) {
+  .requirements-title {
+    font-size: 2rem;
+  }
 }
 /*ここまでヘッダー*/
 
@@ -62,7 +100,7 @@ table.select-flow {
   width: 80%;
   margin: 0 auto;
   border-collapse: separate;
-  border-spacing: 0px 50px;
+  border-spacing: 0px 20px;
   font-size: 15px;
 }
 
@@ -131,27 +169,16 @@ table.select-flow th, table.select-flow td {
   table.select-flow {
     width: 100%!important;
   }
-}
 
-/*@media screen and (max-width: 640px) {
-  table.select-flow dt, table.select-flow dd {
-    padding: 0;
-    width: auto;
-    float: none;
-  }
-}*/
-
-@media screen and (max-width: 640px)　{
   table.select-flow td, table.select-flow th {
+    font-size: 75%;
     width: 100%;
     display: block;
     text-align: left;
   }
-}
 
-@media (max-width: 640px) {
   table.select-flow th:after {
-  display: none;
+    display: none;
   }
 }
 /*ここまで選考フロー*/
@@ -247,7 +274,7 @@ dl:after {
   -webkit-transform: rotate(720deg);
 }
 
-@media screen and (max-width: 640px){  
+@media screen and (max-width: 640px){
   .inner {
     padding: 0 15px;
     margin: 0 auto;
@@ -267,7 +294,7 @@ dl:after {
     padding: 0;
     width: auto;
     float: none;
-    font-size: 80%;
+    font-size: 75%;
   }
 
   .inner dd {
