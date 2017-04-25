@@ -425,7 +425,7 @@ a img{
 }
 
   .android-more-section .android-section-title {
-    margin-left: 12px;
+    margin-left: /*12px*/0px;
     padding-bottom: 24px;
   }
 
