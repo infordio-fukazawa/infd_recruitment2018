@@ -12,7 +12,6 @@ $(function() {
         slideshowAuto: false,
         maxWidth: '90%',
         maxHeight: '90%',
-        height: '90%',
         opacity: 0.7
     });
     $('.inline-html').on('click', function() {
