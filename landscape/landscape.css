@@ -69,9 +69,13 @@
 .inline-html img {
     width: 100%;
 }
+.inline-html p {
+    font-size: 16px;
+    padding: 5px;
+}
 .mdl-card__media {
     margin-bottom: 0px !important;
 }
-.mdl-card__media span {
+.mdl-card__media　 {
 
 }
