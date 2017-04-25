@@ -96,15 +96,16 @@
   border-top: 80px solid rgb(255, 255, 255);
 }
 
-.android-card-container{
-  display: flex;
-  flex-direction: column;
+.android-more-section {
+  max-width: 100% !important;
 }
 
 .staffs-section{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  max-width: 1044px;
+  margin: auto;
 }
 
 a:link,a:visited,a:hover,a:active{
