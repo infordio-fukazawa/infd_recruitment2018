@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./css/material.min.css">
+    <link rel="stylesheet" href="./css/normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./top.css">
   </head>
@@ -82,16 +83,16 @@
 
       <div class="top-title">
         <div class="infordio">infordio</div>
-        <div class="for-next-freshers"><h1>for next freshers</h1></div>
+        <div class="for-next-freshers">for next freshers</div>
       </div>
 
       <div class="designConcept">
-                              <a id="designConceptModal" class="card" href="#messageModal">
-design concept of our site!!
+                              <a id="demo01" href="#animatedModal">
+                                design concept of our site!!
                                   </a>
                                 </div>
-                                  <div id="messageModal">
-                                      <div  id="btn-close-modal" class="close-messageModal">
+                                  <div id="animatedModal">
+                                      <div id="btn-close-modal" class="close-animatedModal">
                                           CLOSE MODAL
                                       </div>
 
@@ -140,10 +141,7 @@ design concept of our site!!
     <script src="js/animatedModal.min.js"></script>
 
     <script>
-    $("#designConceptModal").animatedModal({
-        modalTarget:'messageModal',
-        top:'56px',
-    });
+    $("#demo01").animatedModal();
     </script>
   </body>
 </html>

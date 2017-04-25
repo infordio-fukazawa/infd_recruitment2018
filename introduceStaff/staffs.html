@@ -34,19 +34,24 @@
     <link rel="stylesheet" href="../css/hover-min.css">
     <link rel="stylesheet" href="workplace.css">
     <link rel="stylesheet" href="staffs.css">
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="../css/normalize.min.css">
+    <!-- <link rel="stylesheet" href="css/animate.min.css"> -->
 <style>
+#btn-close-modal {
+    width:100%;
+    text-align: center;
+    cursor:pointer;
+    color:#fff;
+}
 </style>
-
   </head>
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
       <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row">
-          <a href="../index.html" class="android-title mdl-layout-title">
-            <img class="android-logo-image" src="../images/companylogo.png">
+          <a href="http://www.infordio.co.jp" target="_blank" class="android-title mdl-layout-title">
+            <img class="android-logo-image" src="../images/companylogo.png" alt="株式会社インフォディオ ロゴ">
           </a>
           <!-- Add spacer, to align navigation to the right in desktop -->
           <div class="android-header-spacer mdl-layout-spacer"></div>
@@ -64,9 +69,9 @@
       </div>
 
       <div class="android-drawer mdl-layout__drawer">
-        <span class="mdl-layout-title theme-color">
-          <img class="android-logo-image-side" src="../images/companylogo-white.png">
-        </span>
+        <a class="mdl-layout-title theme-color" target="_blank" href="http://www.infordio.co.jp">
+          <img class="android-logo-image-side" src="../images/companylogo-white.png" alt="株式会社インフォディオ ロゴ">
+        </a>
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link mdl-typography--text-uppercase" href="../index.html">TOP</a>
           <a class="mdl-navigation__link mdl-typography--text-uppercase" href="../introduceStaff/staffs.html">社員紹介</a>
@@ -89,128 +94,174 @@
           </div>
           <div class="sankaku">
           </div>
-          
           <div class="android-more-section">
             <div class="android-card-container mdl-grid">
               <div class="staffs-section">
 
-                   <div class="card">
-                     <a href = "#masa"></a>
-                    <img class="card-img" src="../images/hirono.jpg">
-                    <div class="card-content">
-                      <h5 class="card-title">佐々木 健成</h1>
-                      <p class="card-text">
-                        2013年度入社<br>
-                        開発部二課所属<br>
-                      </p>
-                    </div>
-                  </div>
+
+                                <a id="masaModal" class="card" href="#masamichi">
+                                    <img class="card-img" src="images/masamichi.png">
+                                    <div class="card-content">
+                                      <h5 class="card-title">佐々木 健成</h1>
+                                      <p class="card-text">
+                                        2013年度入社<br>
+                                        開発部二課所属<br>
+                                      </p>
+                                    </div>
+                                    </a>
+
+                                    <div id="masamichi" class="staffs-modal">
+
+                                        <div class="modal-content">
+                                              <img class="modal-img" src="images/masaBig.png">
+                                              <div class="modal-text">
+                                                <h5 class="migiyose">佐々木 健成</h5>
+                                                <p class="migiyose">
+                                                  2013年11月入社<br>
+                                                  開発部二課所属<br>
+                                                </p>
+<p>
+工学部情報電気電子工学科卒<br>
+プログラミングは在学中に少しだけ経験<br>
+休みの日はイベントに積極的に参加。<br>
+<br>
+他の若手からは「とても話しやすく、いると安心する」「優しく接してくれるおおらかな先輩」「かっこいい」などの人柄や、<br>
+「とても優しく親切に仕事を教えてくれる」という教育面を評価されている。<br>
+当HP製作チームの一員。<br>
+  </p>
+  <div  id="btn-close-modal" class="close-masamichi">
+    <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored mdl-js-ripple-effect">
+      <i class="material-icons">close</i>
+    </button>
+  </div>
+
+                                              </div>
+                                            </div>
+                                        </div>
 
 
+                                    <a id="fukaModal" class="card" href="#fukazawa">
+                                        <img class="card-img" src="images/fukazawa.png">
+                                        <div class="card-content">
+                                          <h5 class="card-title">深澤 誠矢</h1>
+                                          <p class="card-text">
+                                            2015年度入社<br>
+                                            開発部一課所属<br>
+                                          </p>
+                                        </div>
+                                        </a>
+                                        <div id="fukazawa" class="staffs-modal">
 
 
-                   <div class="card">
-                     <a href = "#fuka"></a>
-                    <img class="card-img" src="../images/hirono.jpg">
-                    <div class="card-content">
-                      <h5 class="card-title">深澤 誠矢</h1>
-                      <p class="card-text">
-                        2015年度入社<br>
-                        開発部一課所属<br>
-                      </p>
-                    </div>
-                  </div>
+                                            <div class="modal-content">
+                                                  <img class="modal-img" src="images/fukaBig.png">
+                                                  <div class="modal-text">
+                                                    <h5 class="migiyose">深澤 誠矢</h5>
+                                                    <p class="migiyose">
+                                                      2015年12月入社<br>
+                                                      開発部一課所属<br>
+                                                    </p>
+    <p>
+      文学部文学科日本文学専修卒<br>
+      プログラミングは未経験<br>
+      趣味は古着屋巡り、バスケ、野球。古着は主に下北沢や原宿の古着屋で購入している。<br>
+<br>
+      他の若手からは「色々な角度からの意見を言ってくれる」「行き届いた気配りができる」などの立ち回りを評価されている。<br>
+      「かっこいい」「おしゃれ」などの声もあり、たまに同僚へファッションのアドバイスをしている。<br>
+      当HP製作チームのテクニカルリーダー。<br>
+      </p>
+      <div  id="btn-close-modal" class="close-fukazawa">
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored mdl-js-ripple-effect">
+          <i class="material-icons">close</i>
+        </button>
+      </div>
 
+                                                  </div>
+                                            </div>
+                                    </div>
+                                        <a id="itoModal" class="card" href="#ito">
+                                            <img class="card-img" src="images/ito.png">
+                                            <div class="card-content">
+                                              <h5 class="card-title">伊藤 泰地</h1>
+                                              <p class="card-text">
+                                                2016年度入社<br>
+                                                開発部一課所属<br>
+                                              </p>
+                                            </div>
+                                            </a>
+                                            <div id="ito" class="staffs-modal">
 
+                                                <div class="modal-content">
+                                                      <img class="modal-img" src="images/itoBig.png">
+                                                      <div class="modal-text">
+                                                        <h5 class="migiyose">伊藤 泰地</h5>
+                                                        <p class="migiyose">
+                                                          2016年4月入社<br>
+                                                          開発部一課所属<br>
+                                                        </p>
+        <p>
+          理学部基盤化学コース卒<br>
+          プログラミング経験は簡単なシェルスクリプトを少し。<br>
+<br>
+          趣味は音楽ゲーム、立体パズル。休みの日は趣味に費やしている。<br>
+          他の若手からは「まじめ」「真面目で優しい」「真面目で誠実」と真面目さを高く評価されている。<br>
+          「ポロシャツ」という、彼独自のファッションへのこだわりを挙げる声も。<br>
+          当HP製作チームの一員。<br>
+<br>
+          </p>
+          <div  id="btn-close-modal" class="close-ito">
+            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored mdl-js-ripple-effect">
+              <i class="material-icons">close</i>
+            </button>
+          </div>
 
-                   <div class="card">
-                     <a href = "#ito"></a>
-                    <img class="card-img" src="../images/hirono.jpg">
-                    <div class="card-content">
-                      <h5 class="card-title">伊藤 泰地</h1>
-                      <p class="card-text">
-                        2016年度入社<br>
-                        開発部三課所属<br>
-                      </p>
-                    </div>
-                  </div>
+                                                      </div>
+                                                </div>
+                                        </div>
 
+                                            <a id="hiroModal" class="card" href="#hirono">
+                                                <img class="card-img" src="images/hirono.png">
+                                                <div class="card-content">
+                                                  <h5 class="card-title">佐々木 啓乃</h1>
+                                                  <p class="card-text">
+                                                    2016年度入社<br>
+                                                    開発部二課所属<br>
+                                                  </p>
+                                                </div>
+                                                </a>
+                                                <div id="hirono" class="staffs-modal">
+                                                  <div class="modal-content">
+                                                        <img class="modal-img" src="images/hiroBig.png">
+                                                        <div class="modal-text">
+                                                          <h5 class="migiyose">佐々木 啓乃</h5>
+                                                          <p class="migiyose">
+                                                            2016年4月入社<br>
+                                                            開発部二課所属<br>
+                                                          </p>
+          <p>
+            文学部社会学科卒<br>
+            プログラミングは未経験。<br>
+<br>
+            趣味はカラオケ。十八番はスキマスイッチの「奏」。<br>
+            他の若手からは「明るい」「明るくてやる気にあふれている」「しっかりしていて自分の意見が言える」というスタンスが評価されている。<br>
+            「かわいい」との声もあるが果たして…？<br>
+            当HP製作において、コンセプトデザインを担当。<br>
+            </p>
+            <div  id="btn-close-modal" class="close-hirono">
+              <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored mdl-js-ripple-effect">
+                <i class="material-icons">close</i>
+              </button>
+            </div>
 
-                   <div class="card">
-                     <a href = "#hirono"></a>
-                    <img class="card-img" src="../images/hirono.jpg">
-                    <div class="card-content">
-                      <h5 class="card-title">佐々木 啓乃</h1>
-                      <p class="card-text">
-                        2016年度入社<br>
-                        開発部二課所属<br>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                  <div id="modal">
-                  <div id="masa">
-                  <a href="#" class="close_overlay">×</a>
-                  <div class="modal_window">
-                  <h2>    <a href="#">MODAL WINDOW【01】</a></h2>
-                  <p>JavaScriptを使用しないCSS（CSS3）のみでのLightBox風モーダルウィンドウです。</p>
-                  <p>モーダルウィンドウ内は通常のテキストや画像の配置の他、<br />
-                  リンクテキストなどの配置ももちろん可能です。<br />
-                  <p>モーダルウィンドウを閉じる際は、ウィンドウ外をクリックするか、<br />
-                  下記の様に配置して閉じるボタンをクリック。</p>
-                  <a href="#"></a>
-                  </div><!--/.modal_window-->
-                  </div><!--/#open01-->
-                  </div><!--/#modal-->
-                  <div id="modal">
-                  <div id="fuka">
-                  <a href="#" class="close_overlay">×</a>
-                  <div class="modal_window">
-                  <h2>    <a href="#">MODAL WINDOW【01】</a></h2>
-                  <p>JavaScriptを使用しないCSS（CSS3）のみでのLightBox風モーダルウィンドウです。</p>
-                  <p>モーダルウィンドウ内は通常のテキストや画像の配置の他、<br />
-                  リンクテキストなどの配置ももちろん可能です。<br />
-                  <p>モーダルウィンドウを閉じる際は、ウィンドウ外をクリックするか、<br />
-                  下記の様に配置して閉じるボタンをクリック。</p>
-                  <a href="#"></a>
-                  </div><!--/.modal_window-->
-                  </div><!--/#open01-->
-                  </div><!--/#modal-->
-                  <div id="modal">
-                    <div id="ito">
-                  <a href="#" class="close_overlay">×</a>
-                  <div class="modal_window">
-                  <h2>    <a href="#">MODAL WINDOW【01】</a></h2>
-                  <p>JavaScriptを使用しないCSS（CSS3）のみでのLightBox風モーダルウィンドウです。</p>
-                  <p>モーダルウィンドウ内は通常のテキストや画像の配置の他、<br />
-                  リンクテキストなどの配置ももちろん可能です。<br />
-                  <p>モーダルウィンドウを閉じる際は、ウィンドウ外をクリックするか、<br />
-                  下記の様に配置して閉じるボタンをクリック。</p>
-                  <a href="#"></a>
-                  </div><!--/.modal_window-->
-                  </div><!--/#open01-->
-                  </div><!--/#modal-->
-      <div id="modal">
-      <div id="hirono">
-      <a href="#" class="close_overlay">×</a>
-      <div class="modal_window">
-      <h2>    <a href="#">MODAL WINDOW【01】</a></h2>
-      <p>JavaScriptを使用しないCSS（CSS3）のみでのLightBox風モーダルウィンドウです。</p>
-      <p>モーダルウィンドウ内は通常のテキストや画像の配置の他、<br />
-      リンクテキストなどの配置ももちろん可能です。<br />
-      <p>モーダルウィンドウを閉じる際は、ウィンドウ外をクリックするか、<br />
-      下記の様に配置して閉じるボタンをクリック。</p>
-      <a href="#"></a>
-      </div><!--/.modal_window-->
-      </div><!--/#open01-->
-      </div><!--/#modal-->
-
+                                                        </div>
+                                                  </div>
+                                          </div>
+                                                </div>
 
         </div>
             </div>
           </div>
-        </div>
+
 
 
 
@@ -220,16 +271,33 @@
                 Copyright © 2008-2017 INFORDIO CO.,LTD. 株式会社インフォディオ</p>
             </div>
           </footer>
-
+        </div>
     </div>
 
     <script type="text/javascript" src="../js/jquery-3.2.0.min.js"></script>
     <script type="text/javascript" src="workplace.js"></script>
     <script src="../js/material.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
+    <script src="../js/animatedModal.min.js"></script>
 <script>
+            $("#masaModal").animatedModal({
+                modalTarget:'masamichi',
+                color:'rgba(0,0,0,0.5)',
+            });
 
+            $("#fukaModal").animatedModal({
+                modalTarget:'fukazawa',
+                color:'rgba(0,0,0,0.5)',
+            });
+
+            $("#itoModal").animatedModal({
+                modalTarget:'ito',
+                color:'rgba(0,0,0,0.5)',
+            });
+
+            $("#hiroModal").animatedModal({
+                modalTarget:'hirono',
+                color:'rgba(0,0,0,0.5)',
+            });
 </script>
   </body>
 </html>

@@ -15,8 +15,6 @@
  */
 
 body {
-  margin: 0;
-  background:  url("images/BGImage.png") center/cover;
 }
 
 /* Disable ugly boxes around images in IE10 */

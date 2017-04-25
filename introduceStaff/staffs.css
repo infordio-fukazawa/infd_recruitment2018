@@ -35,27 +35,48 @@
 }
 
 .staffs-modal{
-  top:56px !important;
+  padding: 10px;
 }
 
 .gradient-top {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), #ffff6b);
 }
 
-.hirono{
-  background-image: url(../images/hirono.jpg);
-  background-repeat: no-repeat;
-  background:url(../images/hirono.jpg) linear-gradient(to bottom, #fff, #ffff6b);
-  background-size: 100% auto;
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right:0;
+  left:0;
+
 }
 
-.staffs-card:hover{
-  background-image: url("");
-  background-color: rgb(255, 255, 107);
+.modal-img{
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 80%;
+  height: auto;
 }
 
-.img{
+.modal-text{
+  margin: 0 auto;
+  max-width: 800px;
+  width: 80%;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: white;
+  box-sizing: border-box;
+}
 
+.migiyose {
+  display: block;
+  position: relative;
+  right:0;
 }
 
 .sankaku{
