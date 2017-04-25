@@ -10,7 +10,9 @@
     text-decoration: none; }
 .android-card-container .mdl-card__supporting-text {
     padding-bottom: 16px; }
-
+.android-more-section {
+  padding-top: 80px;
+  padding-bottom: 20px; }
 /* ↓ColorBox上書き↓ */
 #cboxOverlay {
     background-image: url(img/cats/01.jpg);
@@ -37,12 +39,37 @@
     margin: 20px; }
 /* ↑ColorBox上書き↑ */
 
+.hidden {
+    display: none;
+}
+.inline-html img {
+    width: 100%;
+}
+.inline-html p {
+    font-size: 16px;
+    padding: 5px;
+}
+.mdl-card__media {
+    margin-bottom: 0px !important;
+}
 @media (max-width: 479px) {
   .mdl-cell.mdl-grid.mdl-grid--no-spacing .mdl-cell:first-child {
       margin-bottom: 8px;
   }
   .mdl-cell.mdl-grid.mdl-grid--no-spacing .mdl-cell:last-child {
       margin-top: 8px;
+  }
+  .mdl-typography--subhead {
+    font-size: 13px;
+    line-height: 17px;
+  }
+  .inline-html p {
+    font-size: 13px;
+    line-height: 17px;
+    padding: 5px;
+  }
+  #cboxTitle {
+      font-size: 11px;
   }
 }
 @media (min-width: 480px) and (max-width: 839px) {
@@ -62,17 +89,4 @@
   .mdl-cell.mdl-grid.mdl-grid--no-spacing .mdl-cell:last-child {
       margin-top: 8px;
   }
-}
-.hidden {
-    display: none;
-}
-.inline-html img {
-    width: 100%;
-}
-.inline-html p {
-    font-size: 16px;
-    padding: 5px;
-}
-.mdl-card__media {
-    margin-bottom: 0px !important;
 }
