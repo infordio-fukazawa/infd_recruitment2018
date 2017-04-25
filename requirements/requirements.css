@@ -20,6 +20,10 @@ body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, input, textarea, p, blockquote, t
   font-size: 24px;
 }
 
+.theme-color {
+  background-color: #acece6 !important;
+}
+
 @media (max-width: 640px) {
 .selection-flow {
     font-size: 20px;
@@ -41,6 +45,10 @@ body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, input, textarea, p, blockquote, t
   animation: moveFromBottom 1s ease;
   opacity: .7;
   margin-top: 20px;
+}
+
+.theme-color-text {
+  color: #5cece6;
 }
 
 .requirements-subtitle p {
