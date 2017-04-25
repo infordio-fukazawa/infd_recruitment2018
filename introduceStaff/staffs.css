@@ -35,13 +35,18 @@
 }
 
 .staffs-modal{
+<<<<<<< HEAD
   /*padding: 10px;*/
+=======
+  top:56px !important;
+>>>>>>> 648e078d0b066d4700e6e19b653d835972cea2ec
 }
 
 .gradient-top {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), #ffff6b);
 }
 
+<<<<<<< HEAD
 .modal-content {
   display: flex;
   flex-direction: column;
@@ -54,18 +59,23 @@
   margin: 0 auto;
   max-width: 800px;
   width: 80vw;
+=======
+.hirono{
+  background-image: url(../images/hirono.jpg);
+  background-repeat: no-repeat;
+  background:url(../images/hirono.jpg) linear-gradient(to bottom, #fff, #ffff6b);
+  background-size: 100% auto;
 }
 
-.modal-text{
-  margin: 0 auto;
-  max-width: 800px;
-  width: 80%;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  background-color: white;
-  box-sizing: border-box;
+.staffs-card:hover{
+  background-image: url("");
+  background-color: rgb(255, 255, 107);
+>>>>>>> 648e078d0b066d4700e6e19b653d835972cea2ec
 }
 
+.img{
+
+<<<<<<< HEAD
 .close {
   text-align: right;
   top: 75px;
@@ -78,6 +88,8 @@
   margin: auto;
   left:0;
   right: 0;
+=======
+>>>>>>> 648e078d0b066d4700e6e19b653d835972cea2ec
 }
 
 .sankaku{

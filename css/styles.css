@@ -832,3 +832,27 @@ a img{
     font-size: 3rem;
   }
 }
+
+footer p.mdl-typography--font-light{
+  margin: 0;
+}
+@media screen and (max-width: 800px) {
+  footer p.mdl-typography--font-light{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 700px) {
+  footer p.mdl-typography--font-light{
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer p.mdl-typography--font-light{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  footer {
+    display: none;
+  }
+}
