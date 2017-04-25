@@ -28,6 +28,23 @@ body {
   z-index:1;
 }
 
+.DCButton {
+  position: absolute;
+  margin: auto;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  font-size: x-large;
+}
+
+#whyGear {
+  display: block;
+  border: 1px solid #000;
+  margin: auto;
+  background-color: transparent;
+}
+
 .designConcept p{
   font-size: small;
   line-height: normal;
