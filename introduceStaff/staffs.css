@@ -35,7 +35,7 @@
 }
 
 .staffs-modal{
-  padding: 10px;
+  /*padding: 10px;*/
 }
 
 .gradient-top {
@@ -46,21 +46,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: absolute;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  right:0;
-  left:0;
-
+  padding-top: 100px
 }
 
 .modal-img{
   display: block;
   margin: 0 auto;
   max-width: 800px;
-  width: 80%;
-  height: auto;
+  width: 80vw;
 }
 
 .modal-text{
@@ -73,10 +66,18 @@
   box-sizing: border-box;
 }
 
-.migiyose {
-  display: block;
-  position: relative;
-  right:0;
+.close {
+  text-align: right;
+  top: 75px;
+  width: 100px !important;
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  font-size: x-large;
+  font-weight: 100;
+  border-radius: 5px;
+  margin: auto;
+  left:0;
+  right: 0;
 }
 
 .sankaku{
