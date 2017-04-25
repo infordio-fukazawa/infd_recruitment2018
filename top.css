@@ -38,13 +38,6 @@ body {
   font-size: x-large;
 }
 
-#whyGear {
-  display: block;
-  border: 1px solid #000;
-  margin: auto;
-  background-color: transparent;
-}
-
 .designConcept p{
   font-size: small;
   line-height: normal;
