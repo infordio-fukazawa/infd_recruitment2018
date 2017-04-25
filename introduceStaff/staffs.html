@@ -34,19 +34,24 @@
     <link rel="stylesheet" href="../css/hover-min.css">
     <link rel="stylesheet" href="workplace.css">
     <link rel="stylesheet" href="staffs.css">
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="../css/normalize.min.css">
+    <!-- <link rel="stylesheet" href="css/animate.min.css"> -->
 <style>
+#btn-close-modal {
+    width:100%;
+    text-align: center;
+    cursor:pointer;
+    color:#fff;
+}
 </style>
-
   </head>
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
       <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row">
-          <a href="../index.html" class="android-title mdl-layout-title">
-            <img class="android-logo-image" src="../images/companylogo.png">
+          <a href="http://www.infordio.co.jp" target="_blank" class="android-title mdl-layout-title">
+            <img class="android-logo-image" src="../images/companylogo.png" alt="株式会社インフォディオ ロゴ">
           </a>
           <!-- Add spacer, to align navigation to the right in desktop -->
           <div class="android-header-spacer mdl-layout-spacer"></div>
@@ -64,9 +69,9 @@
       </div>
 
       <div class="android-drawer mdl-layout__drawer">
-        <span class="mdl-layout-title theme-color">
-          <img class="android-logo-image-side" src="../images/companylogo-white.png">
-        </span>
+        <a class="mdl-layout-title theme-color" target="_blank" href="http://www.infordio.co.jp">
+          <img class="android-logo-image-side" src="../images/companylogo-white.png" alt="株式会社インフォディオ ロゴ">
+        </a>
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link mdl-typography--text-uppercase" href="../index.html">TOP</a>
           <a class="mdl-navigation__link mdl-typography--text-uppercase" href="../introduceStaff/staffs.html">社員紹介</a>
@@ -89,11 +94,12 @@
           </div>
           <div class="sankaku">
           </div>
-
           <div class="android-more-section">
             <div class="android-card-container mdl-grid">
               <div class="staffs-section">
-                  <a id="masaModal" class="card" href="#masamichi">
+
+
+                                <a id="masaModal" class="card" href="#masamichi">
                                     <img class="card-img" src="images/masamichi.png">
                                     <div class="card-content">
                                       <h5 class="card-title">佐々木 健成</h1>
@@ -248,7 +254,7 @@ close
         </div>
             </div>
           </div>
-        </div>
+
 
 
 
@@ -258,16 +264,33 @@ close
                 Copyright © 2008-2017 INFORDIO CO.,LTD. 株式会社インフォディオ</p>
             </div>
           </footer>
-
+        </div>
     </div>
 
     <script type="text/javascript" src="../js/jquery-3.2.0.min.js"></script>
     <script type="text/javascript" src="workplace.js"></script>
     <script src="../js/material.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/animatedModal.min.js"></script>
+    <script src="../js/animatedModal.min.js"></script>
 <script>
+            $("#masaModal").animatedModal({
+                modalTarget:'masamichi',
+                color:'rgba(0,0,0,0.5)',
+            });
 
+            $("#fukaModal").animatedModal({
+                modalTarget:'fukazawa',
+                color:'rgba(0,0,0,0.5)',
+            });
+
+            $("#itoModal").animatedModal({
+                modalTarget:'ito',
+                color:'rgba(0,0,0,0.5)',
+            });
+
+            $("#hiroModal").animatedModal({
+                modalTarget:'hirono',
+                color:'rgba(0,0,0,0.5)',
+            });
 </script>
   </body>
 </html>
