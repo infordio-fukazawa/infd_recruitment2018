@@ -50,33 +50,32 @@
 }
 
 .plus-margin{
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
 
 .modal-content h6 {
   text-align: left;
-  padding-left: 10px;
+  padding-left: 1vw;
   margin-bottom: 0px;
 }
 
 .modal-content p {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
-.modal-content h5 .migiyose {
+.modal-content h5 {
   text-align: left;
-  padding-left: 10px;
-  margin-bottom: 5px;
+  padding-left: 2vw;
 }
 
-.migiyose {
+/*.migiyose {
   display: block;
   text-align:right;
   padding-right:25px;
   margin-bottom: 5px;
-}
+}*/
 
 .modal-img{
   display: block;
@@ -88,7 +87,7 @@
 .modal-text{
   margin: 0 auto;
   max-width: 800px;
-  width: 80%;
+  width: 80vw;
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
