@@ -1,6 +1,9 @@
 .android-more-section {
   padding-bottom: 10px;
 }
+.android-more-section:nth-child(2) {
+  padding-top: 0;
+}
 
 .card {
   /*background-color: rgba(255,255,255,0.5);*/
@@ -34,10 +37,6 @@
   margin-left: 10px;
 }
 
-.staffs-modal{
-  /*padding: 10px;*/
-}
-
 .gradient-top {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), #ffff6b);
 }
@@ -46,7 +45,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 100px
 }
 
 .plus-margin{
@@ -70,27 +68,25 @@
   padding-left: 2vw;
 }
 
-/*.migiyose {
+.migiyose {
   display: block;
   text-align:right;
   padding-right:25px;
   margin-bottom: 5px;
-}*/
+}
 
 .modal-img{
   display: block;
   margin: 0 auto;
-  max-width: 800px;
-  width: 80vw;
+  width: 100%;
 }
 
 .modal-text{
   margin: 0 auto;
-  max-width: 800px;
-  width: 80vw;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+/*  max-width: 800px;
+  width: 80vw;*/
+  width: 100%;
+  padding: 10px;
   background-color: white;
   box-sizing: border-box;
 }
@@ -137,7 +133,40 @@
   margin: auto;
 }
 
-a:link,a:visited,a:hover,a:active{
-    text-decoration: none;
-    color: black;
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+/* ↓ColorBox上書き↓ */
+#cboxOverlay {
+  background-image: url(img/cats/01.jpg);
+  background: rgb(219, 255, 251); }
+#cboxLoadedContent {
+  padding: 0;
+  overflow: auto;
+  -moz-box-shadow: 0px 0px 10px #555555;
+  -webkit-box-shadow: 0px 0px 10px #555555;
+  box-shadow: 0px 0px 10px #555555;
+  cursor: pointer;
+  background-color: rgba(0,0,0, 0.7); }
+#cboxContent {
+  background: none;
+}
+#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose , #cboxTitle {
+  top: -30px; }
+#colorbox, #cboxOverlay, #cboxWrapper {
+  overflow: visible ; }
+#cboxTitle {
+  color: #000; }
+#inline-content {
+    margin: 20px; }
+/* ↑ColorBox上書き↑ */
+
+.hidden {
+    display: none;
+}
+
+.partition-border {
+  border:thin solid rgba(0,0,0,0.1);
 }
