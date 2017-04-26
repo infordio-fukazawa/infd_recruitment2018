@@ -16,18 +16,12 @@ body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, input, textarea, p, blockquote, t
 }
 
 .selection-flow {
-  margin-top: 30px;
+  margin-top: 50px;
   font-size: 24px;
 }
 
 .theme-color {
   background-color: #acece6 !important;
-}
-
-@media (max-width: 640px) {
-.selection-flow {
-    font-size: 20px;
-  }
 }
 
 /*ここからヘッダー*/
@@ -66,14 +60,6 @@ body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, input, textarea, p, blockquote, t
 @media (max-width: 640px) {
   .requirements-title {
     font-size: 3rem;
-  }
-
-  .requirements-subtitle {
-    font-size: 20px;
-  }
-
-  .requirements-subtitle p {
-    font-size: 10px;
   }
 }
 
@@ -170,7 +156,6 @@ table.select-flow th, table.select-flow td {
   }
 
   table.select-flow td, table.select-flow th {
-    font-size: 75%;
     width: 100%;
     display: block;
     text-align: left;
@@ -239,7 +224,7 @@ div {
 
 dl:after {
   position: relative;
-  height: 1px;
+  height: 2px;
   display: block;
   width: 100%;
   background-color: #acece6;
@@ -293,19 +278,17 @@ dl:after {
     padding: 0;
     width: auto;
     float: none;
-    font-size: 75%;
   }
 
   .inner dd {
     width: auto;
     float: none;
-    font-size: 75%;
   }
 
   .button_bosyu {
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
   }
 }
 /*ここまで募集要項*/
