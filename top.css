@@ -75,6 +75,11 @@ a:link,a:visited,a:hover,a:active{
   right:0;
 }
 
+.modal-content h5 {
+  text-align: left;
+  padding-left: 10px;
+}
+
 .modal-content h6 {
   text-align: left;
   padding-left: 10px;
@@ -85,4 +90,5 @@ a:link,a:visited,a:hover,a:active{
   text-align: left;
   padding-left: 25px;
   padding-right: 25px;
+    margin-bottom: 0px;
 }

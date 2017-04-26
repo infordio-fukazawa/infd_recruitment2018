@@ -49,6 +49,35 @@
   padding-top: 100px
 }
 
+.plus-margin{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.modal-content h6 {
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+
+.modal-content p {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.modal-content h5 .migiyose {
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+.migiyose {
+  display: block;
+  text-align:right;
+  padding-right:25px;
+  margin-bottom: 5px;
+}
+
 .modal-img{
   display: block;
   margin: 0 auto;
@@ -62,6 +91,7 @@
   width: 80%;
   padding-bottom: 10px;
   padding-left: 10px;
+  padding-right: 10px;
   background-color: white;
   box-sizing: border-box;
 }
