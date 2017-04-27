@@ -48,33 +48,11 @@ a:link,a:visited,a:hover,a:active{
     color: black;
 }
 
-.close {
-  text-align: right;
-  width: 100px !important;
-  background-color: rgba(0,0,0,0.8);
-  position: fixed;
-  font-size: x-large;
-  font-weight: 100;
-  border-radius: 5px;
-  margin: auto;
-  top:10px;
-  left:0;
-  right: 0;
-  z-index: 10;
-}
-
 .modal-content {
   background-color: white;
-  width: 40vw;
-  height: auto;
-  margin: auto;
+  width: 100%;
   padding: 10px;
-  position: absolute;
-  top:40px;
-  left:0;
-  right:0;
 }
-
 .modal-content h5 {
   text-align: left;
   padding-left: 10px;
@@ -85,10 +63,44 @@ a:link,a:visited,a:hover,a:active{
   padding-left: 10px;
   margin-bottom: 0px;
 }
+.modal-content h6:first-child {
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
 
 .modal-content p {
   text-align: left;
   padding-left: 25px;
   padding-right: 25px;
-    margin-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/* ↓ColorBox上書き↓ */
+#cboxOverlay {
+  background-image: url(img/cats/01.jpg);
+  background: rgb(219, 255, 251); }
+#cboxLoadedContent {
+  padding: 0;
+  overflow: auto;
+  -moz-box-shadow: 0px 0px 10px #555555;
+  -webkit-box-shadow: 0px 0px 10px #555555;
+  box-shadow: 0px 0px 10px #555555;
+  cursor: pointer;
+  background-color: rgba(0,0,0, 0.7); }
+#cboxContent {
+  background: none;
+}
+#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose , #cboxTitle {
+  top: -30px; }
+#colorbox, #cboxOverlay, #cboxWrapper {
+  overflow: visible ; }
+#cboxTitle {
+  color: #000; }
+#inline-content {
+    margin: 20px; }
+/* ↑ColorBox上書き↑ */
+.hidden {
+    display: none;
 }

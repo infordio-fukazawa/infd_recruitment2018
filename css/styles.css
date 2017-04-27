@@ -856,3 +856,6 @@ footer p.mdl-typography--font-light{
     display: none;
   }
 }
+a {
+  outline: none;
+}
