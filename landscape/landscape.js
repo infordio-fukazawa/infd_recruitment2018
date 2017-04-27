@@ -17,4 +17,9 @@ $(function() {
     $('.inline-html').on('click', function() {
         $.colorbox.next();
     });
+    $('.inline').bind('touchstart', function() {
+        $(this).parent().addClass('hover');
+    }).bind('touchend', function() {
+        $(this).parent().removeClass('hover');
+    });
 });
