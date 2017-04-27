@@ -6,7 +6,8 @@ $(function() {
         closeButton: true,
         slideshow: false,
         slideshowAuto: false,
-        maxWidth: '90%',
+        maxWidth: '800px',
+        width: '90%',
         maxHeight: '90%',
         opacity: 0.7
     });
