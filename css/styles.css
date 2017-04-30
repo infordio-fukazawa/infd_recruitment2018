@@ -856,6 +856,33 @@ footer p.mdl-typography--font-light{
     display: none;
   }
 }
+a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+}
+
 a {
   outline: none;
 }
+a.entry.entry.entry {
+  background-color: #4698ea;
+  color: #fff;
+  /*color: #f33;acece6*/
+}
+.android-navigation .entry {
+    display: inline-block;
+    height: 60px;
+    line-height: 68px;
+    letter-spacing: 0;
+    opacity: .87;
+    padding: 0 24px;
+    color: #757575;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    box-shadow: 0 1px 3px #000;
+    border-radius: 3px;
+    height: 45px;
+    line-height: 45px;
+}
+.android-navigation .entry:hover {
+    box-shadow: 1px 2px 3px #000; }

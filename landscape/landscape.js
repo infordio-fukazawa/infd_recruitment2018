@@ -10,7 +10,8 @@ $(function() {
         closeButton: true,
         slideshow: false,
         slideshowAuto: false,
-        maxWidth: '90%',
+        maxWidth: '1200px',
+        width: '90%',
         maxHeight: '90%',
         opacity: 0.7
     });
