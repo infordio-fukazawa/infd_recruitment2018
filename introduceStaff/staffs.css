@@ -105,22 +105,6 @@
   right: 0;
 }
 
-.sankaku{
-  margin:auto;
-  width: 0;
-  height: 0;
-  border: 80px solid transparent;
-  border-top: 80px solid rgb(255, 255, 107);
-}
-
-.sankakuWhite{
-  margin:auto;
-  width: 0;
-  height: 0;
-  border: 80px solid transparent;
-  border-top: 80px solid rgb(255, 255, 255);
-}
-
 .android-more-section {
   max-width: 100% !important;
 }
